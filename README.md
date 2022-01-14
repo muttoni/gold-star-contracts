@@ -38,11 +38,7 @@ Each [Chainmonsters](https://chainmonsters.com/) NFT represents a Chainmon, item
 
 ## Contributing 
 
-If you would like to add your contracts to this list, please add a new folder in this repo with the your contract(s) and an explanatory markdown walkthrough that explains the contract's interesting bits, and why it is worth studying.
+If you would like to add your contracts to this list, please submit a PR following the pattern above – i.e. link to contract and explanation as to why it's worth studying/learning from.
 
-```
-your-project-name/
-├─ your-contract(s).cdc
-└─ walkthrough.md
-```
+
 
