@@ -24,13 +24,13 @@ The core smart contracts powering the Flow Blockchain.
 
 The NFT storefront is a general-purpose Cadence contract for trading NFTs on Flow. NFTStorefront uses modern Cadence [run-time type](https://github.com/onflow/nft-storefront) facilities to implement a marketplace that can take any currency in order to vend any token in a safe and secure way. This means that only one instance of the contract is needed (visit link for its address on Testnet and Mainnet), and its resources, transactions, and scripts can be used by any account to create any marketplace.
 
-###### [Chainmonsters](https://github.com/bsidegames/chainmonsters-smart-contracts)
+#### [Chainmonsters](https://github.com/bsidegames/chainmonsters-smart-contracts)
 
-Each Chainmonsters NFT represents a Chainmon, item or cosmetic from within the game. The NFTs are grouped into seasons which usually have some overarching theme, exclusive items and rewards. Multiple NFTs can be minted from the same reward and each receives a serial number that indicates where in the edition it was minted.
+Each [Chainmonsters](https://chainmonsters.com/) NFT represents a Chainmon, item or cosmetic from within the game. The NFTs are grouped into seasons which usually have some overarching theme, exclusive items and rewards. Multiple NFTs can be minted from the same reward and each receives a serial number that indicates where in the edition it was minted.
 
 #### [Versus](https://github.com/versus-flow/versus-contracts)
 
-Versus is a novel auction style NFT marketplace. Its contracts show good examples of implementing the NFT interface as well as how to setup an auction style marketplace.
+[Versus](https://versus.auction) is a novel auction style NFT marketplace. Its contracts show good examples of implementing the NFT interface as well as how to setup an auction style marketplace.
 
 ### Testnet
 
