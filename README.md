@@ -1,6 +1,6 @@
 # Gold Star Cadence Contracts
 
-A non-exhaustive list of interesting Cadence contracts, scripts, transactions and what makes them great. 
+A non-exhaustive list of Cadence contracts, scripts, transactions that exemplify best practices. 
 
 ## Contracts
 
@@ -13,15 +13,28 @@ These contracts are so-called foundational because they are standard interfaces 
 ### Mainnet
 An collection of contracts currently deployed on mainnet that show Cadence best practices and worth studying (in alphabetical order).
 
+#### [Flow Core Contracts](https://github.com/onflow/flow-core-contracts)
+The core smart contracts powering the Flow Blockchain. 
+
 #### [.find](https://github.com/findonflow/find/tree/main/contracts)
 
 [Find](find.xyz) is a name service for Flow. It has contracts showing how to implement Profiles, Donations, displaying user's various NFTs (although things will change in the near future with the NFT Metadata standard) as well as how the .find name service works from a Smart Contract level. 
 
 #### [NFT Storefront](https://github.com/onflow/nft-storefront/blob/main/contracts/NFTStorefront.cdc)
 
-The NFT storefront is a general-purpose Cadence contract for trading NFTs on Flow.
+The NFT storefront is a general-purpose Cadence contract for trading NFTs on Flow. NFTStorefront uses modern Cadence [run-time type](https://github.com/onflow/nft-storefront) facilities to implement a marketplace that can take any currency in order to vend any token in a safe and secure way. This means that only one instance of the contract is needed (visit link for its address on Testnet and Mainnet), and its resources, transactions, and scripts can be used by any account to create any marketplace.
 
-NFTStorefront uses modern Cadence [run-time type](https://github.com/onflow/nft-storefront) facilities to implement a marketplace that can take any currency in order to vend any token in a safe and secure way. This means that only one instance of the contract is needed (visit link for its address on Testnet and Mainnet), and its resources, transactions, and scripts can be used by any account to create any marketplace.
+###### [Chainmonsters](https://github.com/bsidegames/chainmonsters-smart-contracts)
+
+Each Chainmonsters NFT represents a Chainmon, item or cosmetic from within the game. The NFTs are grouped into seasons which usually have some overarching theme, exclusive items and rewards. Multiple NFTs can be minted from the same reward and each receives a serial number that indicates where in the edition it was minted.
+
+#### [Versus](https://github.com/versus-flow/versus-contracts)
+
+Versus is a novel auction style NFT marketplace. Its contracts show good examples of implementing the NFT interface as well as how to setup an auction style marketplace.
+
+### Testnet
+
+#### [Kitty Items](https://github.com/onflow/kitty-items)
 
 ## Contributing 
 
