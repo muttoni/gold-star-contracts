@@ -16,6 +16,9 @@ An collection of contracts currently deployed on mainnet that show Cadence best 
 #### [Flow Core Contracts](https://github.com/onflow/flow-core-contracts)
 The core smart contracts powering the Flow Blockchain. 
 
+#### [USDC Contract](https://github.com/flow-usdc/flow-usdc)
+An implementation of the CENTRE Fiat Token in Cadence, on the Flow Blockchain. Shows a good example of a `FiatToken`, which implements interfaces `FungibleToken`, `FiatTokenInterface`, and `OnChainMultiSig`. 
+
 #### [.find](https://github.com/findonflow/find/tree/main/contracts)
 
 [Find](find.xyz) is a name service for Flow. It has contracts showing how to implement Profiles, Donations, displaying user's various NFTs (although things will change in the near future with the NFT Metadata standard) as well as how the .find name service works from a Smart Contract level. 
